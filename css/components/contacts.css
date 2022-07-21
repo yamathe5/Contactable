@@ -1,0 +1,65 @@
+.contacts {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+.contacts-heading{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color:  #595959;
+  padding: 15px 10px;
+  border-bottom: 1px solid #E2E2E2;
+}
+
+.card-contact {
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.name-contact{
+  flex-grow: 1;
+  margin-left: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #262626;
+}
+
+.card-contact:hover {
+  background-color: #E2E2E2;
+}
+
+.button-add {
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  background-color: #E8EAED;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.button-add:hover {
+  background-color: #F8FAFD;
+  border: solid 1px #E8EAED;;
+}
+
+.button-add img{
+  height: 24px;
+  width: 24px;
+}
+
+.star-container{
+  cursor: pointer;
+}
